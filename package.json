@@ -10,7 +10,10 @@
     "start": "npm run server",
     "server": "node lib/server/server.js",
     "client": "node lib/client/client.js ws://pure-ocean-28628.herokuapp.com/",
-    "zombie": "node lib/client/zombie.js ws://pure-ocean-28628.herokuapp.com/"
+    "zombie": "node lib/client/zombie.js ws://pure-ocean-28628.herokuapp.com/",
+    "server-local": "PORT=8080 node lib/server/server.js",
+    "client-local": "node lib/client/client.js ws://127.0.0.1:8080/",
+    "zombie-local": "node lib/client/zombie.js ws://127.0.0.1:8080/"
   },
   "author": "",
   "license": "ISC",
