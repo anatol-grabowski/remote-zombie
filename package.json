@@ -13,12 +13,17 @@
     "zombie": "node lib/client/zombie.js ws://pure-ocean-28628.herokuapp.com/",
     "server-local": "PORT=8080 node lib/server/server.js",
     "client-local": "node lib/client/client.js ws://127.0.0.1:8080/",
-    "zombie-local": "node lib/zombie/zombie.js ws://127.0.0.1:8080/"
+    "zombie-local": "node lib/zombie/zombie.js ws://127.0.0.1:8080/",
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
     "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
   }
 }
