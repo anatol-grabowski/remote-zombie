@@ -5,5 +5,3 @@ export default class Connection {
     this.ws = ws
   }
 }
-
-export const a = 33;
